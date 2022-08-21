@@ -204,7 +204,7 @@
 
   <div class="ui segment background-thin-yellow">
     <div class="ui segment background-title-red padding-title">
-      <h4 class="header ">考研倒计时：</h4>
+      <h4 class="header ">工作倒计时：</h4>
     </div>
 
     <div class="countdowntimer">
@@ -234,67 +234,6 @@
 
   <div class="ui segment background-thin-yellow">
     <div class="ui segment background-title-red padding-title">
-      <h4 class="header ">最新留言：</h4>
-    </div>
-    <!-- <p>这里是饼图文章统计，直观地展示文章的分类数目和其下的文章数~</p> -->
-    
-  <div id="hot-comments"></div>
-  <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/twikoo@1.4.12/dist/twikoo.all.min.js"></script>
-  <script type="text/javascript">
-    //判断网址,防止访客网址不写http和https
-    function wangzhi(e) {
-      http = e.slice(0, 4)
-      https = e.slice(0, 5)
-      if (http == "http" || https == "https") {
-        return e
-      } else if (e == "" || e == null || e == undefined) {
-        return e
-      } else {
-        e = 'http://' + e
-        return e
-      }
-    }
-
-    //调用twikoo最新评论主函数
-    function newcomment() {
-      twikoo.getRecentComments({
-        envId: 'https://twikoo-nine-lemon.vercel.app', // 环境 ID
-        pageSize: 7, // 获取多少条，默认：10，最大：100
-        includeReply: false // 是否包括最新回复，默认：false
-      }).then(function(res) {
-        console.log(res);
-        var hotComments = $("#hot-comments");
-        for (var i = 0; i < res.length; i++) {
-          if (i === 0) {
-            console.log(res[0]);
-          }
-          var nick = res[i].nick; //访客姓名
-          var content = res[i].commentText; //评论内容
-          var newcontent = content.substring(0, 50); //字数截取后评论内容
-          var url = res[i].url; //文章链接
-          var avatar = res[i].avatar; //评论者头像
-          var link = wangzhi(res[i].link); //评论者网址
-          var updatedAt = res[i].relativeTime; //评论时间
-          var commentId = '#' + res[i].id; //评论id
-          hotComments.append('<li class="px1 pb2 flex items-center"><img style="width: 40px;height:40px" class="circle mx1 listavatar" src="' + avatar +
-            '"><div class="w100"><div class="flex justify-between"><div class="h6 listauthor overflow-hidden" title="' + nick + '"><a  target="_blank" rel="noopener external nofollow noreferrer" href="' + link + '">' + nick +
-            '</a></div><span class="h6 mr1 listdate wenzi hang1">' + updatedAt + '</span></div> <a href="' + url + commentId + '"><div class="h5 list-comcontent overflow-hidden">' + newcontent + '</div></a></div></li>');
-        }
-      }).catch(function(err) {
-        console.error(err);
-      });
-    }
-
-    $(function() {
-      newcomment(); //调用newcomment
-    });
-  </script>
-
-  </div>
-
-  <div class="ui segment background-thin-yellow">
-    <div class="ui segment background-title-red padding-title">
       <h4 class="header ">文章分类：</h4>
     </div>
     <div class="row-flex flex-wrap categories-lists">
@@ -320,7 +259,7 @@
 
     <div class="ui card margin-auto">
       <div class="image">
-        <img src="/img/p2.png">
+        <img src="/img/p1.jpg">
       </div>
     </div>
   </div>
@@ -443,12 +382,12 @@
     </div>
     <!-- 分割线 -->
     <div class="ui divider title-divider footer-hide"></div>
-    <div class="ui container margin-top-10 page-footer">www.nothinglin.ml © 2021 | Powered by Hexo | Based on Theme: hexo-theme-Nothinglin by Nothinglin.</div>
-    <div class="ui container margin-top-10 page-footer">本博客已运行:<span id=span_dt_dt ></span>天了
+    <div class="ui container margin-top-10 page-footer">www.gzhex.hust © 2022 | Powered by Hexo | Based on Theme: hexo-theme-Nothinglin by Nothinglin.</div>
+    <div class="ui container margin-top-10 page-footer">本博客已运行:<span id=span_dt_dt ></span>了
 <script language=javascript>
   function show_date_time() {
     window.setTimeout("show_date_time()", 1000);
-    BirthDay = new Date("5/2/2021 22:22:45");
+    BirthDay = new Date("8/21/2022 14:57:57");
     today = new Date();
     timeold = (today.getTime() - BirthDay.getTime());
     sectimeold = timeold / 1000
@@ -467,8 +406,8 @@
 </script>
 </div>
     <div class="ui container margin-top-10 page-footer">
-      本站总浏览次数：<a href="https://www.hitwebcounter.com" target="_blank" class="counter-a"><img src="https://hitwebcounter.com/counter/counter.php?page=7909387&style=0006&nbdigits=1&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" class="counter-img"/></a>  次 |
-      本站总访问人数：<a href="https://www.hitwebcounter.com" target="_blank"  class="counter-a"><img src="https://hitwebcounter.com/counter/counter.php?page=7909389&style=0006&nbdigits=1&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" class="counter-img"/></a>  人
+      本站总浏览次数：<a href="https://www.hitwebcounter.com" target="_blank" class="counter-a"><img src="https://hitwebcounter.com/counter/counter.php?page=8028553&style=0006&nbdigits=1&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" class="counter-img"/></a>  次 |
+      本站总访问人数：<a href="https://www.hitwebcounter.com" target="_blank"  class="counter-a"><img src="https://hitwebcounter.com/counter/counter.php?page=8028554&style=0006&nbdigits=1&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" class="counter-img"/></a>  人
 
     </div>
   </div>
