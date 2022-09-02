@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-08-22T11:42:19.458Z</updated>
+  <updated>2022-09-02T12:56:18.603Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,66 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>02 MySQL进阶</title>
-    <link href="http://example.com/2022/08/22/MySQL02-%E8%BF%9B%E9%98%B6/"/>
-    <id>http://example.com/2022/08/22/MySQL02-%E8%BF%9B%E9%98%B6/</id>
-    <published>2022-08-22T11:41:32.836Z</published>
-    <updated>2022-08-22T11:42:19.458Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><pre data-enlighter-language="bash">$ hexo new "My New Post"</pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/h1&gt;&lt;pre data-enlighter-language=&quot;bash&quot;&gt;$ hexo new &quot;My New Post&quot;&lt;/pre&gt;</summary>
-      
-    
-    
-    
-    <category term="MySQL" scheme="http://example.com/categories/MySQL/"/>
-    
-    
-    <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>01 MySQL基础</title>
-    <link href="http://example.com/2022/08/21/MySQL01-%E5%9F%BA%E7%A1%80/"/>
-    <id>http://example.com/2022/08/21/MySQL01-%E5%9F%BA%E7%A1%80/</id>
-    <published>2022-08-21T13:02:38.038Z</published>
-    <updated>2022-08-22T11:42:30.161Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><pre data-enlighter-language="bash">$ hexo new "My New Post"</pre>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/h1&gt;&lt;pre data-enlighter-language=&quot;bash&quot;&gt;$ hexo new &quot;My New Post&quot;&lt;/pre&gt;</summary>
-      
-    
-    
-    
-    <category term="MySQL" scheme="http://example.com/categories/MySQL/"/>
-    
-    
-    <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
     <title>06 异常</title>
     <link href="http://example.com/2022/08/21/Java06-%E5%BC%82%E5%B8%B8/"/>
     <id>http://example.com/2022/08/21/Java06-%E5%BC%82%E5%B8%B8/</id>
     <published>2022-08-21T12:40:32.777Z</published>
-    <updated>2022-08-22T02:03:13.687Z</updated>
+    <updated>2022-09-02T12:56:18.603Z</updated>
     
-    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1><pre data-enlighter-language="bash">$ hexo new "My New Post"</pre>]]></content>
+    <content type="html"><![CDATA[<h1 id="异常体系结构"><a href="#异常体系结构" class="headerlink" title="异常体系结构"></a>异常体系结构</h1><p>Error、Exception</p><h1 id="Java异常处理机制"><a href="#Java异常处理机制" class="headerlink" title="Java异常处理机制"></a>Java异常处理机制</h1><p>抛出异常、捕获异常。try、catch、finally、throw、throws。</p><pre data-enlighter-language="java">int a = 1;int b = 0;try{  //try监控区域    if(b==0){        throw new ArithmeticException();  //主动抛出异常    }    System.out.println(a/b);}catch(ArithmeticException e){  //catch捕获异常    System.out.println("程序出现异常，变量b不能为0");}finally{  //finally处理善后工作    System.out.println("finally");}</pre><h1 id="自定义异常"><a href="#自定义异常" class="headerlink" title="自定义异常"></a>自定义异常</h1>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/h1&gt;&lt;pre data-enlighter-language=&quot;bash&quot;&gt;$ hexo new &quot;My New Post&quot;&lt;/pre&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;异常体系结构&quot;&gt;&lt;a href=&quot;#异常体系结构&quot; class=&quot;headerlink&quot; title=&quot;异常体系结构&quot;&gt;&lt;/a&gt;异常体系结构&lt;/h1&gt;&lt;p&gt;Error、Exception&lt;/p&gt;
+&lt;h1 id=&quot;Java异常处理机制&quot;&gt;&lt;a href=&quot;#Java</summary>
       
     
     
@@ -93,9 +46,9 @@
     <link href="http://example.com/2022/08/21/Java05-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
     <id>http://example.com/2022/08/21/Java05-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</id>
     <published>2022-08-21T12:40:23.681Z</published>
-    <updated>2022-09-01T10:11:37.568Z</updated>
+    <updated>2022-09-02T12:31:04.976Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="初识面向对象"><a href="#初识面向对象" class="headerlink" title="初识面向对象"></a>初识面向对象</h1><p>面向对象编程(Object-Oriented Programming, OOP)，本质：<strong>以类的方式组织代码，以对象的形式封装数据</strong></p><p>三大特性：<strong>封装、继承、多态</strong></p><h1 id="对象的创建分析"><a href="#对象的创建分析" class="headerlink" title="对象的创建分析"></a>对象的创建分析</h1><p>使用new关键字创建对象。此时，除了分配内存空间外，还会给创建好的对象进行默认的初始化以及对类中构造器的调用。</p><p>类中的构造器也称为构造方法，是在进行创建对象的时候必须要调用的，并且构造器有以下两个特点：1. 必须和类的名字相同； 2. 必须没有返回类型，也不能写void。</p><p>定义有参构造之后，需要显示的定义一个无参构造，才能使用无参构造。</p><p>this指代当前对象。</p><pre data-enlighter-language="java">Person person = new Person()public Person(){}public Person(String name){    this.name = name;}public Person(String name, int age){    this.name = name;    this.age = age;}</pre><h1 id="面向对象三大特性"><a href="#面向对象三大特性" class="headerlink" title="面向对象三大特性"></a>面向对象三大特性</h1><p><em><strong>封装</strong></em></p><p>高内聚，低耦合。</p><p>属性私有，get/set：1. private属性； 2. 提供一些可以操作属性的方法，提供一些public的get/set方法</p><p>好处：1. 提高程序安全性，保护数据； 2. 隐藏代码的实现细节； 3. 统一接口； 4. 增加系统可维护性。</p><p><em><strong>继承</strong></em></p><p>本质是对某一批类的抽象。extends扩展，子类是父类的扩展。Java中只有单继承，没有多继承。</p><p>继承是类和类之间的一种关系。除此之外，类和类之间的关系还有依赖、组合、聚合等。</p><pre data-enlighter-language="java">public class Person{}public class Student extends Person{//子类}public class Teacher extends Person{}</pre><ol><li><p>object类：所有的类都默认继承Object类。</p></li><li><p>super：super指代父类对象。private的无法被继承。</p></li><li><p>方法重写</p></li></ol><p><em><strong>多态</strong></em></p><h1 id="抽象类和接口"><a href="#抽象类和接口" class="headerlink" title="抽象类和接口"></a>抽象类和接口</h1><h1 id="内部类及OOP实战"><a href="#内部类及OOP实战" class="headerlink" title="内部类及OOP实战"></a>内部类及OOP实战</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="初识面向对象"><a href="#初识面向对象" class="headerlink" title="初识面向对象"></a>初识面向对象</h1><p>面向对象编程(Object-Oriented Programming, OOP)，本质：<strong>以类的方式组织代码，以对象的形式封装数据</strong></p><p>三大特性：<strong>封装、继承、多态</strong></p><h1 id="对象的创建分析"><a href="#对象的创建分析" class="headerlink" title="对象的创建分析"></a>对象的创建分析</h1><p>使用new关键字创建对象。此时，除了分配内存空间外，还会给创建好的对象进行默认的初始化以及对类中构造器的调用。</p><p>类中的构造器也称为构造方法，是在进行创建对象的时候必须要调用的，并且构造器有以下两个特点：1. 必须和类的名字相同； 2. 必须没有返回类型，也不能写void。</p><p>定义有参构造之后，需要显示的定义一个无参构造，才能使用无参构造。</p><p>this指代当前对象。</p><pre data-enlighter-language="java">Person person = new Person()public Person(){}public Person(String name){    this.name = name;}public Person(String name, int age){    this.name = name;    this.age = age;}</pre><h1 id="面向对象三大特性"><a href="#面向对象三大特性" class="headerlink" title="面向对象三大特性"></a>面向对象三大特性</h1><p><em><strong>封装</strong></em></p><p>高内聚，低耦合。</p><p>属性私有，get/set：1. private属性； 2. 提供一些可以操作属性的方法，提供一些public的get/set方法</p><p>好处：1. 提高程序安全性，保护数据； 2. 隐藏代码的实现细节； 3. 统一接口； 4. 增加系统可维护性。</p><p><em><strong>继承</strong></em></p><p>本质是对某一批类的抽象。extends扩展，子类是父类的扩展。Java中只有单继承，没有多继承。</p><p>继承是类和类之间的一种关系。除此之外，类和类之间的关系还有依赖、组合、聚合等。</p><pre data-enlighter-language="java">public class Person{}public class Student extends Person{//子类}public class Teacher extends Person{}</pre><ol><li><p>object类：所有的类都默认继承Object类。</p></li><li><p>super：super指代父类对象。private的无法被继承。</p></li><li><p>方法重写：子类重写父类的方法。方法名必须相同；参数列表必须相同；修饰符范围可以扩大但不能缩小（public&gt;protected&gt;default&gt;private）；抛出的异常范围可以缩小但不能扩大。</p></li></ol><p><em><strong>多态</strong></em></p><p>同一方法可以根据发送对象的不同而采取不同的行为方式。<br>一个对象的实际类型是确定的，但可以指向对象的引用类型有很多。<br>父类的引用指向子类，但不能调用子类独有的方法。</p><p>instanceof判断类型是否相同，要求两个类有包含关系。</p><p>静态变量、方法仅限于该类及其对象使用，其他类无法使用。</p><h1 id="抽象类和接口"><a href="#抽象类和接口" class="headerlink" title="抽象类和接口"></a>抽象类和接口</h1><p><em><strong>抽象类</strong></em></p><p>abstract：抽象方法只有方法名，没有方法实现。抽象类的所有方法，继承了它的子类，都必须要实现它的方法（重写）。</p><p>不能new这个抽象类，只能靠子类去实现它；抽象类中可以写普通的方法；抽象方法必须在抽象类中。</p><p><em><strong>接口</strong></em></p><p>interface：接口可以实现多继承。接口中所有定义都是抽象的public abstract。接口都需要实现类implements。</p><h1 id="内部类"><a href="#内部类" class="headerlink" title="内部类"></a>内部类</h1><p><em><strong>成员内部类</strong></em></p><pre data-enlighter-language="java">public class Outer{    private int id;    public void out(){        System.out.println("这是外部类的方法");    }    public class Inner{        public void in(){            System.out.println("这是内部类的方法");        }        public void getID(){            System.out.println(id);        }    }}Outer outer = new Outer();Outer.Inner inner = outer.new Inner();inner.getID();</pre><p><em><strong>静态内部类</strong></em></p><pre data-enlighter-language="java">public class Outer{    private int id;    public void out(){        System.out.println("这是外部类的方法");    }    public static class Inner{        public void in(){            System.out.println("这是内部类的方法");        }    }}</pre><p><em><strong>局部内部类</strong></em></p><pre data-enlighter-language="java">public class Outer{    public void method(){        class Inner{            public void in(){        }    }}</pre><p><em><strong>匿名内部类</strong></em></p><pre data-enlighter-language="java">public class Test{    public static void main(String[] args){        new Apple().eat();            }}class Apple(){    public void eat(){        System.out.println("1");    }}</pre>]]></content>
     
     
       
